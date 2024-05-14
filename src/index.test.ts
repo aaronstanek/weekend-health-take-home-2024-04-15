@@ -27,3 +27,37 @@ test("if inputString is a single character and dictionary contains a single stri
 test("if inputString is a single character and dictionary contains a single character string that is not equal to inputString, then the result is empty", () => {
     expect(findWords("a", ["b"])).toEqual([]);
 });
+
+describe("supplied tests", () => {
+    test("supplied test 1", () => {
+        expect(
+            findWords("ate", [
+                "ate",
+                "eat",
+                "tea",
+                "dog",
+                "do",
+                "god",
+                "goo",
+                "go",
+                "good",
+            ]),
+        ).toEqual(["ate", "eat", "tea"]);
+    });
+
+    test("supplied test 2", () => {
+        expect(
+            findWords("oogd", [
+                "ate",
+                "eat",
+                "tea",
+                "dog",
+                "do",
+                "god",
+                "goo",
+                "go",
+                "good",
+            ]),
+        ).toEqual(["dog", "do", "god", "goo", "go", "good"]);
+    });
+});
