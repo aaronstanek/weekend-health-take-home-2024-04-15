@@ -37,7 +37,7 @@ describe("subsets and supersets of the inputString", () => {
     test("ignore the inputString with a suffix", () => {
         expect(findWords("a", ["ab"])).toEqual([]);
     });
-    test("include a dictionary word if it is a strict subset of the inputString", () => {
+    test("include proper subsets of the inputString", () => {
         expect(findWords("ab", ["a"])).toEqual(["a"]);
     });
     test("ignore a dictionary word if it includes a letter in the inputString more times that the inputString", () => {
