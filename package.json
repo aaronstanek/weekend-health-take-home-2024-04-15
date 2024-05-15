@@ -6,7 +6,8 @@
     "scripts": {
         "tsc": "tsc",
         "test": "jest",
-        "format": "prettier -w ."
+        "format": "prettier -w .",
+        "build-and-test": "npm run tsc && npm run test"
     },
     "author": "",
     "license": "ISC",
