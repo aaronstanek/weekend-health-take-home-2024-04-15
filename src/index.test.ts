@@ -11,7 +11,7 @@ describe("single character inputString", () => {
     test("ignore a dictionary word if it contains a letter not in the inputString", () => {
         expect(findWords("a", ["b"])).toEqual([]);
     });
-    test("include multiple dictionary words that match each match the inputString", () => {
+    test("include multiple dictionary words that each match the inputString", () => {
         expect(findWords("a", ["a", "a"])).toEqual(["a", "a"]);
     });
     test("ignore multiple dictionary words that contain letters not in the inputString", () => {
