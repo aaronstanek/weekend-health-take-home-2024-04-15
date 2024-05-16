@@ -5,11 +5,11 @@
 -   [Approach to the problem](#approach-to-the-problem)
 -   [Approach to testing](#approach-to-testing)
 
-Read a version of the implementation that explains my thought process [here](https://github.com/aaronstanek/weekend-health-take-home-2024-04-15/blob/main/src/index.ts).
+Read a version of the implementation that explains my thought process [here](https://github.com/aaronstanek/weekend-health-take-home-2024-05-16/blob/main/src/index.ts).
 
-Read a version of the implementation that I would consider ready for production [here](https://github.com/aaronstanek/weekend-health-take-home-2024-04-15/blob/main/src/index.production.ts).
+Read a version of the implementation that I would consider ready for production [here](https://github.com/aaronstanek/weekend-health-take-home-2024-05-16/blob/main/src/index.production.ts).
 
-Read the tests [here](https://github.com/aaronstanek/weekend-health-take-home-2024-04-15/blob/main/src/index.test.ts).
+Read the tests [here](https://github.com/aaronstanek/weekend-health-take-home-2024-05-16/blob/main/src/index.test.ts).
 
 ## Introduction
 
@@ -46,9 +46,9 @@ The build output goes into a `./dist` directory.
 
 ## Approach to the problem
 
-Read a version of the implementation that explains my thought process [here](https://github.com/aaronstanek/weekend-health-take-home-2024-04-15/blob/main/src/index.ts).
+Read a version of the implementation that explains my thought process [here](https://github.com/aaronstanek/weekend-health-take-home-2024-05-16/blob/main/src/index.ts).
 
-Read a version of the implementation that I would consider ready for production [here](https://github.com/aaronstanek/weekend-health-take-home-2024-04-15/blob/main/src/index.production.ts).
+Read a version of the implementation that I would consider ready for production [here](https://github.com/aaronstanek/weekend-health-take-home-2024-05-16/blob/main/src/index.production.ts).
 
 I considered several approaches to this problem, settling on an `O(n)` solution where `n` is the total number of characters in all input strings. I count the number of times each character appears in the `inputString` and then compare that to how many times each character appears in each of the `dictionary` words.
 
@@ -83,7 +83,7 @@ Another alternative would be to generate all possible permutations of the `input
 
 To run tests see: [To build and test](#to-build-and-test).
 
-Read the tests [here](https://github.com/aaronstanek/weekend-health-take-home-2024-04-15/blob/main/src/index.test.ts).
+Read the tests [here](https://github.com/aaronstanek/weekend-health-take-home-2024-05-16/blob/main/src/index.test.ts).
 
 I use [Jest](https://jestjs.io/) for unit testing. I provide enough test coverage to be confident that `findWords` works, however I see areas that could use greater test coverage. Some of these areas include the following:
 
