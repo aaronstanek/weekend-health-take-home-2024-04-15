@@ -1,5 +1,6 @@
 /// This file contains more comments than is reasonable for production code.
 /// These additional comments are intended to showcase the author's thought process.
+/// To see a more natural/readable version of this file, see index.production.ts
 
 /// A Map to store the frequency of each character in a string.
 /// The values are integers representing the number of times a specific character appears in a string.
@@ -39,7 +40,7 @@ const isSubset = (
     return true;
 };
 
-// Returns a subset of `dictionary` where the elements can be formed using the letters in `inputString`.
+/// Returns a subset of `dictionary` where the elements can be formed using the letters in `inputString`.
 export const findWords = (
     inputString: string,
     dictionary: string[],
