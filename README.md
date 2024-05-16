@@ -42,6 +42,8 @@ npm install
 npm run build-and-test
 ```
 
+The build output goes into a `./dist` directory.
+
 ## Approach to the problem
 
 Read a version of the implementation that explains my thought process [here](https://github.com/aaronstanek/weekend-health-take-home-2024-04-15/blob/main/src/index.ts).
