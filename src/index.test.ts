@@ -73,10 +73,10 @@ describe("empty strings and arrays", () => {
     });
 });
 
-/// This first test suite encodes the two test cases that were included in the take-home challenge instructions.
+/// The following tests encode the two test cases that were included in the take-home challenge instructions.
 /// I would not include these tests in a production-level codebase because these tests are more complex than they need to be.
 /// i.e. If either of these tests were to fail it wouldn't be plainly obvious why the test failed.
-/// I include this test suite in this submission only to prove that my implementation aligns with the intent of the instructions.
+/// I include these tests in this submission only to prove that my implementation aligns with the intent of the instructions.
 describe("supplied example test cases", () => {
     test("supplied test 1", () => {
         expect(
