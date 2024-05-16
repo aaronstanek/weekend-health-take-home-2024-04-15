@@ -5,7 +5,9 @@
 -   [Approach to the problem](#approach-to-the-problem)
 -   [Approach to testing](#approach-to-testing)
 
-Read the implementation [here](https://github.com/aaronstanek/weekend-health-take-home-2024-04-15/blob/main/src/index.ts).
+Read a version of the implementation that explains my thought process [here](https://github.com/aaronstanek/weekend-health-take-home-2024-04-15/blob/main/src/index.ts).
+
+Read a version of the implementation that I would consider ready for production [here](https://github.com/aaronstanek/weekend-health-take-home-2024-04-15/blob/main/src/index.production.ts)
 
 Read the tests [here](https://github.com/aaronstanek/weekend-health-take-home-2024-04-15/blob/main/src/index.test.ts).
 
@@ -42,7 +44,9 @@ npm run build-and-test
 
 ## Approach to the problem
 
-Read the implementation [here](https://github.com/aaronstanek/weekend-health-take-home-2024-04-15/blob/main/src/index.ts).
+Read a version of the implementation that explains my thought process [here](https://github.com/aaronstanek/weekend-health-take-home-2024-04-15/blob/main/src/index.ts).
+
+Read a version of the implementation that I would consider ready for production [here](https://github.com/aaronstanek/weekend-health-take-home-2024-04-15/blob/main/src/index.production.ts)
 
 I considered several approaches to this problem, settling on an `O(n)` solution where `n` is the total number of characters in all input strings. I count the number of times each character appears in the `inputString` and then compare that to how many times each character appears in each of the `dictionary` words.
 
