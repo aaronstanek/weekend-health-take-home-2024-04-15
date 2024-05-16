@@ -1,5 +1,14 @@
 # weekend-health-take-home-2024-04-15
 
+-   [Introduction](#introduction)
+-   [Installing, building, and testing](#installing-building-and-testing)
+-   [Approach to the problem](#approach-to-the-problem)
+-   [Approach to testing](#approach-to-testing)
+
+Read the implementation [here](https://github.com/aaronstanek/weekend-health-take-home-2024-04-15/blob/main/src/index.ts).
+
+Read the tests [here](https://github.com/aaronstanek/weekend-health-take-home-2024-04-15/blob/main/src/index.test.ts).
+
 ## Introduction
 
 This repository implements a function `findWords` as described [here](https://weekendhealth.notion.site/Weekend-Health-Take-home-Challenge-327d5972824041829cf9ddc32cb7acd6).
