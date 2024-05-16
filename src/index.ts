@@ -1,3 +1,6 @@
+/// This file contains more comments than is reasonable for production code.
+/// These additional comments are intended to showcase the author's thought process.
+
 /// A Map to store the frequency of each character in a string.
 /// The values are integers representing the number of times a specific character appears in a string.
 /// This type alias improves code readability by giving maintainers a better understanding of the intent of a variable.
@@ -8,7 +11,7 @@ type CharacterFrequencyMap = Map<string, number>;
 /// For example: "foo" => {"f": 1, "o": 2}
 const buildCharacterFrequencyMap = (word: string): CharacterFrequencyMap => {
     const characterCounts: CharacterFrequencyMap = new Map();
-    // Iterate over every character in the word and keeps track of how many times
+    // Iterate over every character in the word and keep track of how many times
     // we've seen each letter using `characterCounts`.
     for (const character of word) {
         // If a character hasn't been seen before, `characterCounts.get` returns `undefined`.
