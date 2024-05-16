@@ -53,7 +53,7 @@ This approach is powered by the following two observations:
 -   Dictionary words can be evaluated independently; whether a given dictionary word appears in the output depends only on that word and the `inputString`.
 -   The order of characters in the `inputString` and the `dictionary` words does not matter.
 
-The two facts above greatly simply the scope of the problem. The first fact means that determining the set of words to return from
+The two facts above greatly simplify the scope of the problem. The first fact means that determining the set of words to return from
 `findWords` is no more complex than determining if any one `dictionary` word should be returned. The second fact means that we can abstract away the input strings entirely and deal only with sets of numbers representing the number of times a given character appears in a word.
 
 Using these facts, I transform the `inputString` and each of the `dictionary` words into a character frequency map, then I compare each of the `dictionary` maps to the `inputString` map to determine whether each of the `dictionary` words can appear in the output. If a `dictionary` word can be made by rearranging the letters of the `inputString`, then the `dictionary` word's character frequency map is a subset of the `inputString` character frequency map, and vice-versa.
